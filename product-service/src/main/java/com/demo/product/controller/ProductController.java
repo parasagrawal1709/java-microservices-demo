@@ -9,6 +9,6 @@ public class ProductController {
 
     @GetMapping
     public List<String> getProducts() {
-        return List.of("Laptop", "Phone");
+        return List.of("Laptop", "Phone", "Ipad");
     }
 }
